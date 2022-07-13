@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+/*Global styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'Source Sans Pro', sans-serif;
+    --secondary-font: 'Herr Von Muellerhoff', cursive;
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #c59d5f;
+    --body-font-color: #515151;
+}
+
+/* Section Container Header */
+.section-header {
+    height: 100vh;
+    background-image: url('images/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+/* Header Nav */
+.header-nav {
+    background-color: transparent;
+}
+.nav-link {
+    color: white;
+    letter-spacing: 2px;
+    transition: 0.1s;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+.nav-link:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Caixa com Welcome e Dados A Rosa */
+.the-rose {
+    height: 85vh;
+}
+.welcome {
+    color: var(--secondary-font-color);
+    font-family: 'Herr Von Muellerhoff';
+    font-size: 8em;
+    line-height: 40%;
+}
+.the-rosa {
+    font-family: 'Cabin';
+    font-size: 3em;
+    letter-spacing: 10px;
+    line-height: 70%;
+}
+.divisoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.asterisco {
+    color: var(--secondary-font-color);
+}
+.left-trace {
+    background-color: white;
+    width: 130px;
+    height: 3px;
+}
+.right-trace {
+    background-color: white;
+    width: 130px;
+    height: 3px;
+}
+
+/* Section Our Story */
+
+.dados-story {
+    width: 400px;
+    text-align: center;
+}
+.discover {
+    font-family: 'Herr Von Muellerhoff';
+    font-size: 7em;
+    color: var(--secondary-font-color);
+    line-height: 50%;
+}
+.our-story {
+    font-family: 'Cabin';
+    font-size: 3em;
+    line-height: 30%;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: var(--main-font-color-dark);
+}
+.asterisco-story {
+    color: var(--body-font-color);
+    line-height: 90px;
+}
+.descricao-story {
+    color: #838282;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+.story-about a {
+    color: var(--secondary-font-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+.story-about a:hover {
+    border-bottom: 2px solid var(--secondary-font-color);
+}

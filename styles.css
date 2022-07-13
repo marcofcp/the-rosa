@@ -98,18 +98,90 @@
 }
 .asterisco-story {
     color: var(--body-font-color);
-    line-height: 90px;
+    line-height: 80px;
 }
 .descricao-story {
     color: #838282;
     font-family: var(--main-font);
     font-weight: bold;
+    padding-bottom: 10px;
 }
 .story-about a {
     color: var(--secondary-font-color);
     font-weight: bold;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 .story-about a:hover {
+    border-bottom: 2px solid var(--secondary-font-color);
+}
+
+/* Section Testeful Recipies */
+
+.section-tasteful-recipies {
+    height: 80vh;
+    background-image: url('images/tasteful-recipes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tasteful {
+    color: var(--secondary-font-color);
+    font-family: var(--secondary-font);
+    font-size: 8em;
+    line-height: 40%;
+}
+.recipies {
+    color: white;
+    font-family: 'Cabin';
+    font-size: 3em;
+    line-height: 100%;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+/* Section Discover Menu */
+
+.item-menu-group {
+    width: 300px;
+}
+.item-menu-group img {
+    width: 100%;
+}
+.dados-discover-menu {
+    text-align: center;
+    width: 450px;
+    padding-left: 30px;
+}
+.discover-menu {
+    font-family: var(--secondary-font);
+    font-size: 7em;
+    line-height: 50%;
+    color: var(--secondary-font-color);
+}
+.titulo-menu {
+    font-family: 'Cabin';
+    font-size: 3em;
+    line-height: 30%;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: var(--main-font-color-dark);
+}
+.asterisco-menu {
+    color: var(--body-font-color);
+    line-height: 80px;
+}
+.descricao-menu {
+    color: #838282;
+    font-family: var(--main-font);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.view-full-menu a {
+    text-decoration: none;
+    color: var(--secondary-font-color);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.view-full-menu a:hover {
     border-bottom: 2px solid var(--secondary-font-color);
 }

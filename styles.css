@@ -274,4 +274,12 @@
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 0.9em;
+    color: var(--main-font-color-dark);
+}
+
+/* Section Rodapé Copyright */
+
+.section-rodape {
+    background-color: var(--main-font-color-dark);
+    color: rgb(161, 160, 160);
 }

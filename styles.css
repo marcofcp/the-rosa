@@ -184,3 +184,85 @@
 .view-full-menu a:hover {
     border-bottom: 2px solid var(--secondary-font-color);
 }
+
+/* Section Perfect Blend */
+
+.section-perfect-blend {
+    height: 80vh;
+    background-image: url('images/perfect-blend.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.perfect {
+    color: var(--secondary-font-color);
+    font-family: var(--secondary-font);
+    font-size: 8em;
+    line-height: 40%;
+}
+.blend {
+    color: white;
+    font-family: 'Cabin';
+    font-size: 3em;
+    line-height: 100%;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+/* Section Culinary Delight */
+
+.dados-culinary-delight {
+    text-align: center;
+    width: 450px;
+}
+.titulo-culinary {
+    font-family: var(--secondary-font);
+    font-size: 7em;
+    line-height: 50%;
+    color: var(--secondary-font-color);
+}
+.delight-culinary {
+    font-family: 'Cabin';
+    font-size: 3em;
+    line-height: 30%;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: var(--main-font-color-dark);
+}
+.asterisco-culinary {
+    color: var(--body-font-color);
+    line-height: 80px;
+}
+.descricao-culinary {
+    color: #838282;
+    font-family: var(--main-font);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.make-reservation a {
+    text-decoration: none;
+    color: var(--secondary-font-color);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.make-reservation a:hover {
+    border-bottom: 2px solid var(--secondary-font-color);
+}
+.delight {
+    width: 300px;
+}
+
+/* Section Localicação e Horários */
+
+.section-locations-hours {
+    background-color: rgb(19, 18, 18);
+    color: white;
+}
+.titulo-loc-hours {
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+}
+.table-loc-hours td {
+    padding-top: 20px;
+    padding-right: 40px;
+}

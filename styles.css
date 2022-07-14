@@ -255,7 +255,7 @@
 
 .section-locations-hours {
     background-color: rgb(19, 18, 18);
-    color: white;
+    color: rgb(204, 203, 203);
 }
 .titulo-loc-hours {
     font-weight: bold;
@@ -265,4 +265,13 @@
 .table-loc-hours td {
     padding-top: 20px;
     padding-right: 40px;
+}
+.top {
+    margin-bottom: -80px;
+}
+.botao-top {
+    background-color: transparent;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 0.9em;
 }

@@ -290,3 +290,17 @@
     background-color: var(--main-font-color-dark);
     color: rgb(161, 160, 160);
 }
+
+
+
+/* Efeitos com ScrollReveal */
+
+.welcome, .the-rosa, .divisoria, .opened {
+    visibility: hidden;
+}
+.x-rotate {
+    visibility: hidden;
+}
+.x-y-rotate {
+    visibility: hidden;
+}
